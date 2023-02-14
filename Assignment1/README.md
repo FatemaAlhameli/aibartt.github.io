@@ -121,3 +121,7 @@ Then I added the logic in app.js. I made an array of image filenames and current
         // Update the current image
         currentImage.src = images[currentIndex];
       });
+
+## Reflection and Evaluation
+
+Surprisingly most of the expectations and goals were met in the process of building the final working version of this project. All the set goals and functionalities of the initial wireframe were succesfully designed and implemented in my website. Additionally, new ideas and design solutions were integrated in new website. For example navigation buttons in the header and three additional sections of Crew Mission, About String Theory and Contact. I learned a lot of new tecniques and insights into creating a engaging and interactive websites using .html, .css and .js. Through this project I learnt how powerful can be JavaScript and CSS and how they can significantly enhance the level of UI and UX.
