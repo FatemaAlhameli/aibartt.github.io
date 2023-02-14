@@ -1,5 +1,5 @@
 # Documentation of 30MFF Website  
-# Intersteellar Revolution
+# Interstellar Revolution
 
 ## Working Link: https://aibartt.github.io/Assignment1/
 
