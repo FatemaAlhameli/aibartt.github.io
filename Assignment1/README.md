@@ -63,3 +63,61 @@ In order to implement this Assignment, I used standard tech stack consisting of 
         <p>Mira is a celebrated physicist who rose to fame for her work on string theory and the Interstellar Revolution. She has a passion for unlocking the secrets of the universe and has dedicated her life to solving the mysteries of theoretical physics. Her contributions to science have been widely recognized and she continues to inspire future generations with her relentless drive for knowledge and exploration.</p>
       </div>
     </div>
+
+For the interactivity I decided to incorporate a "photo carousel" where Behind The Scenes photos change upon clicking and Buttons to navigate to different sections using JavaScript. First I created Previous and Next buttons and assigned them ids to later access it through JavaScript. 
+  
+  <div class="carousel">
+
+    <!-- Previous button to navigate to the previous image -->
+    <div class="buttons">
+      <button id="previousButton">Previous</button>
+      <!-- Image that will be displayed in the carousel -->
+      <img src="Images/1.jpeg" id="currentImage" class="bts">
+      <!-- Next button to navigate to the next image -->
+      <button id="nextButton">Next</button>
+    </div>
+  </div>
+  
+Then I added the logic in app.js. I made an array of image filenames and currentIndex variable to keep track of the current image index. The logic was to add a click event listener to the next and previous buttons and update the current image by either incrementing or decrementing the current index.
+
+      // An array of image filenames
+      const images = ['Images/1.jpeg', 'Images/2.jpeg', 'Images/3.jpeg', 'Images/4.jpeg', 'Images/5.jpeg'];
+
+      // Select the elements we need to manipulate
+      const currentImage = document.querySelector('#currentImage');
+      const previousButton = document.querySelector('#previousButton');
+      const nextButton = document.querySelector('#nextButton');
+
+      // Keep track of the current image index
+      let currentIndex = 0;
+
+      // Set the initial image
+      currentImage.src = images[currentIndex];
+
+      // Add a click event listener to the previous button
+      previousButton.addEventListener('click', function() {
+        // Decrement the current index
+        currentIndex = currentIndex - 1;
+
+        // If we've gone below the first image, wrap around to the last image
+        if (currentIndex < 0) {
+          currentIndex = images.length - 1;
+        }
+
+        // Update the current image
+        currentImage.src = images[currentIndex];
+      });
+
+      // Add a click event listener to the next button
+      nextButton.addEventListener('click', function() {
+        // Increment the current index
+        currentIndex = currentIndex + 1;
+
+        // If we've gone past the last image, wrap around to the first image
+        if (currentIndex >= images.length) {
+          currentIndex = 0;
+        }
+
+        // Update the current image
+        currentImage.src = images[currentIndex];
+      });
