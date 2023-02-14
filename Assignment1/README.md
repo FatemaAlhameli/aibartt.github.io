@@ -20,3 +20,46 @@ The story of Aibar and Mira is a tale of scientific discovery, human perseveranc
 
 In this assignment, I strived to create the best possible immersive experience for the user. I specifically implemented design elements and decisions that depict the Space Concept and Theme to the users. All the background pictures illustrate different galaxies, clusters, and string theory imitations. In order to convey the full story to the users I included the Galactic Story section which gives the necessary context to the embedded video. For the users who are new to String Theory, I created a website explaining the basics of this physical theory. For the people curious about these two brilliant scientists there is a Crew Mission page with their Profile pictures and information. You can also contact them via email if you want :) All this work has been done to achieve the best possible immersive and complete experience for the end user.
 
+
+## Implementation Process
+
+In order to implement this Assignment, I used standard tech stack consisting of HTML, CSS and JavaScript. I created main index.html page and added the navigation bar at the header. Clicking different buttons in the header will navigate you to 3 different .html pages for Crew Mission, String Theory, Contact sections. See below code:
+
+  <header class="header-border">
+    
+    <!-- Adding the logo image to the header of website -->
+    <img class="logo-image" src="/Images/blackhole.jpg" alt="logo">
+
+    <!-- If you click on the  Interstellar Revolution it would navigate you to main page-->
+    <a class="plain-link" href="index.html">
+      <h1 class="logo"> Interstellar Revolution </h1>
+    </a>
+
+    <!-- I added the navigation Links to three diferent html pages with additional information -->
+    <nav>
+      <ul class="nav_links">
+        <!-- Clicking the buttons will navigate you to specific .html pages with necessary info -->
+        <li><a href="crew.html"><button>Mission Crew</button></a></li> 
+        <li><a href="about.html"><button>About String Theory</button></a></li>
+        <li><a class="cta" href="contact.html"><button>Contact</button></a></li>
+      </ul>
+    </nav>
+
+  </header>
+ 
+ For the Crew Mission section I used HTML and CSS to create imaginary description and circular profile picture.
+  
+    <div class="general-background">
+      <!-- Profiles of the two scientists with imaginary description and circular profile picture -->
+      <div class="profile">
+        <img src="Images/aibar.jpeg" alt="Person 1">
+        <h1>Aibar</h1>
+        <p>Aibar is a renowned physicist who is best known for his groundbreaking work in string theory. He has dedicated his life to solving the mysteries of the universe and is considered one of the leading experts in his field. Along with his partner, Mira, Aibar discovered the key to controlling the fabric of reality and built the Interstellar Revolution, a machine that allowed humanity to travel through space and time.</p>
+      </div>
+
+      <div class="profile">
+        <img src="Images/mira.jpeg" alt="Person 2">
+        <h1>Mira</h1>
+        <p>Mira is a celebrated physicist who rose to fame for her work on string theory and the Interstellar Revolution. She has a passion for unlocking the secrets of the universe and has dedicated her life to solving the mysteries of theoretical physics. Her contributions to science have been widely recognized and she continues to inspire future generations with her relentless drive for knowledge and exploration.</p>
+      </div>
+    </div>
