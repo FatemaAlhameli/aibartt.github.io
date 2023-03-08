@@ -27,6 +27,9 @@ To execute our idea we began by brainstorming, planning, and then splitting task
 After deciding on the format of our website (horizontal scroll) as a group we looked at current examples of how to do that. After gaining an understanding I began setting up the outline of the website by adding a page for each panel as well as an introduction and ending page. This process specifically focused on coding mostly in HTML and CSS as well as a bit of Javascript. To create the pages, I used a div tag to divide each panel into a page. By using a reference we were able to create the horizontal scroll with a line on top of the HTML page that tracks where you are on the website and how much you have left for the story. After, I proceeded to add the images for the story on each page in the background according to the sequence of the story. On top of the background images, I added the text of the story also according to the sequence of the story. I proceeded to edit the home page by adding the story title and on the last page I added "The End" to tell the user they have reached the end of the story. I also added our names in the footer of that page. In my contribution, I believe the most challenging part was positioning. Positioning the text was definitely a hassle because I didn't want the text to cover any significant parts of the background image. As the background image takes up the whole window space there were only small areas I could display the text. However, I managed to find suitable places that are good enough for the reader and don't intervene with the visibility of the images. Contributing together as a group had its ups and downs, I believe we work better together but the only limitation was that we weren't always able to work on the code at the same time. At times we had to wait for one person to finish their part in the code in order to then add in ours. 
 
 ## Layout Choice
+
+Fatema
+
 Initially, we created a fully functioning vertical layout that included all the desired elements we had planned. However, we quickly realized that the layout did not align with our personal preferences and did not provide the user experience we were looking for.
 
 We discussed various layout options and ultimately decided on a horizontal layout because of our love for reading comics and the feel of flipping through pages. This decision presented a new challenge for us as we had no prior experience with coding a horizontal layout. It was a daunting task, but we were determined to create a website that aligned with our vision.
@@ -34,6 +37,8 @@ We discussed various layout options and ultimately decided on a horizontal layou
 To achieve our goal, we had to scrap the entire website and start from scratch. It was a challenging decision, but we knew it was necessary to create a website that we could be proud of. We put in a lot of hard work and effort to learn the necessary skills to code a horizontal layout from scratch.
 
 ## Enhancing User Experience through Webcomic Design
+
+Aibar
 
 In this project we tried to create an immersive experience to our story. The webpage provides a user-friendly experience that allows users to read and enjoy the comic script at their own pace while incorporating various elements of UX to enhance the overall experience. For the web interactivity we decided to add background sound which can be controlled by using a button and scroll to the start button at the end of the comic to read it again. We also thought that adding a progress bar at the top of the page would give the user a sense of time orientation. I had some major challenges with the autoplay of the background sound because according to many browsers policy, autoplay is not allowed on a page load unless the user is able to control the play/pause and volume and speed. So we came up with this idea of clicking on the page when we first load the page. The below JavaScript reflects this logic:
 
@@ -70,6 +75,9 @@ function toggleMute() {
 Scott McCloud, in his book "Understanding Comics," outlines several principles of comic art, which can also be applied to webcomics. Flow refers to the way the eye moves across the page, and how the reader is guided from panel to panel. In our webcomics, flow can be achieved through the use of horizontal scrolling and various interactive elements. We also tried to pay attention to the framing which refers to the way that panels are arranged on the page, and how they are used to focus the reader's attention. In webcomics, framing can be used to create a sense of depth or perspective, or to highlight important moments in the story. In our webcomic the main character is in a fixed position throughout the different panels so that we can feel the story from his unique perspective.
 
 ## Using External Libraries for Dynamic Web Animations and Functionality
+
+Aiya 
+
 As we embarked on our journey to create a visually appealing and engaging webpage, we recognized the importance of incorporating dynamic elements such as smooth scrolling, background music controls, and captivating text animations. However, as novice developers, we encountered some challenges in implementing these features. Nevertheless, we were determined to overcome these obstacles and elevate the user experience on our webpage.
 
 To achieve our desired functionality, we leveraged external libraries such as the GreenSock Animation Platform (GSAP) plugin and the Animate on Scroll (AOS) library. With GSAP's ScrollToPlugin, we were able to seamlessly integrate a smooth scrolling functionality into our webpage. The plugin allowed us to add an event listener to our "Scroll to Start" button, which triggered a function to animate the horizontal scroll of the container element to the left position of the first page using the to() method of GSAP. The duration of the animation was set to 1 second, with an easing function of "power3.out" to ensure a smooth and natural movement. By using the scrollTo property, we could specify a target scroll position that would allow users to navigate through our webpage with ease.
@@ -82,9 +90,15 @@ In summary, our use of external libraries such as GSAP and AOS allowed us to ove
 
 ## Visuals
 
+Meera
+
 To generate the images we used the Discord AI bot Midjourney. The use of AI-generated images can be a helpful tool in generating large volumes of images quickly. However, it's important to understand that these images are not perfect and require a lot of time and effort to make them usable for your needs. When you would think of AI generated images you would easily dismiss it and assume tis a breeze. However, the couldn't be father from the truth.  Unlike a human artist who can remember what they've created and make adjustments to maintain consistency, AI models don't have memory in the same way. This means that each image can be vastly different from the last, making it challenging to create a cohesive set of images that fit together. The reason why is also the reason why AI can't possibly replace. Human nowadays. Creatively there was no cohesiveness nor continuity in the photos generated. This can be the downfall of these programs there is no memory int these AI models so it took a lot of time and effort to generate and even more effort to make it ready for usage. The images constantly generated a new face, new clothes background and everything was so different. This led to *heavy* manipulation on photoshop. We used content mesh tool and even added some elements that we created using Illustrator. To do that we had to add shadows, brush the edges blend it in and feather and many more things. This aspect although we overlooked it proved to be one of the hardest things.
 
 Overall, while AI-generated images can be a useful tool, it's important to recognize their limitations and the amount of work required to make them usable. In many cases, it may be more efficient to work with human artists who can create a consistent and cohesive set of images tailored to your specific needs. If we were to do this on a more professional scale with a heavier load of images we would likely choose to create or own or hire an artist. This is because we all have very limited adobe photoshop and illustrator skills so it was so hard to creatively push ourselves to make the image look how we want to with our limited skills.
+
+## Contribution 
+
+If we had to delve into the roles, we would say that we worked on everything hand in hand, when an issue arises in the code we all scramble to solve it. However, Fatima did the website structure and the layout. Aiya, did the text animation and the sound. Aibar assisted with incorporating interactivity and made the presentation. Meera did the visuals and the story. We all worked together to do the wireframe to ensure our end product satisfied us all and continued to work together throughout the process.
 
 
 ## Reflection/Evaluation
