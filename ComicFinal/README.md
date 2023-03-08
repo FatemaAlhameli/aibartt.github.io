@@ -1,5 +1,7 @@
 # Project Name: The Poisoned Apple Comic Story 
 
+## Webpage Link: aibartt.github.io/ComicFinal
+
 ## Project Description 
 
 Our project consists of a comic story about a young boy in a forest. After brainstorming various ideas, we came up with a concept that we wanted to create, a story with meaning and influence about critical thinking and making informed choices for a specific target audience. In this case, children. We initially thought about making a comic based on popular novels or movies we were familiar with from childhood. Still, we decided to create something that relates to us and make it original. Early in creating our comic, we wanted to ensure that we created a story that is aesthetically pleasing on the web, readily understandable, amusing to the reader, and conveys a message or moral. To do so, we concentrated on implementing the comic principles by McCloud to establish a successful story for our audience. As a group, we devised a fiction story involving a young boy, an owl, and a poisoned apple. 
